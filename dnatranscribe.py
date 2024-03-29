@@ -8,7 +8,7 @@ def main():
 
     rnaArr = [] # empty array to hold rna transcription
 
-    # replace all t's with u's
+    # replace all t's with u's as that is how rna differs from dna
     for i in range(len(dnastr)):
         if dnaArr[i] == 'T':
             rnaArr.append('U')
